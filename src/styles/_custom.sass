@@ -1,0 +1,334 @@
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #FF854E
+  background-size: 24px 24px
+
+.cajon.color-acento-contenido
+  background-color: #FFF3C6
+
+.dual-txt-deco
+  position: relative
+  &::after
+    content: ""
+    position: absolute
+    top: -10px
+    left: -10px
+    width: 45%
+    height: 107%
+    background-color:#FFF7EA
+    z-index: 0
+  p 
+    position: relative
+    z-index: 1
+
+.dual-txt-deco2
+  position: relative
+  &::after
+    content: ""
+    position: absolute
+    top: 15px
+    left: -10px
+    width: 45%
+    height: 88%
+    background-color:#FFF7EA
+    z-index: 0
+  p 
+    position: relative
+    z-index: 1
+//tema1-bloque-col-dif
+.bloque-texto-g__img 
+    width: 31%
+    position: absolute
+    @media (max-width: $bp-max-xs)
+      width: 100%
+
+.bloque-texto-g__texto 
+    position: relative
+    width: 75%
+    @media (max-width: $bp-max-xs)
+      width: 100%
+
+.tarjeta--amarilla2
+  background-color: #EBF5E7
+
+.tarjeta--amarilla3
+  background-color: #F3F9FF
+
+.slyder-a__bullets__item--active 
+  background-color: #FF854E
+  border-color: #FF854E
+  opacity: 1
+
+.slyder-a__btn--atrs 
+  background-color:#FF854E
+
+.tabs-b.color-acento-contenido .tabs-b__tab--active
+  border-top-color: #79BE60 !important
+  span
+    color: #79BE60
+
+.tabs-b__tab
+  border-bottom: 0px
+  border-right: 2px solid #BBDEAF
+
+.tarjeta.color-primario
+  background-color: #5AE6DA
+  h3
+    color: #12263F
+  p
+    color: #12263F
+
+.tarjeta-flip.color-primario .tarjeta-flip__contenido
+  background-color: #DDEFD7
+  h4
+    color: #12263F
+
+.tarjeta-flip.tarjeta .tarjeta-flip__img, .tarjeta-flip.tarjeta .tarjeta-flip__contenido 
+    border-radius: 0px
+
+.tarjeta.tarjeta--verde
+  background-color: #EBF5E7
+
+
+.linea-tiempo-b__icon img
+  width: 60%
+
+.slyder-a__tipo-a .slyder-a__bullets
+  bottom: -20px
+
+.slyder-a__tipo-a .slyder-a__btn--atrs
+  left: -40px
+
+.slyder-a__tipo-a .slyder-a__btn--sigt
+  right: -40px
+
+.tarjeta-avatar
+  height: 490px
+
+.tarjeta.color-secundario
+  background-color: #EBF5E7
+  h4
+    color: #12263F !important
+  p
+    color: #12263F !important
+
+.slyder-f__btn i
+  color: #FF854E
+
+.banner-principal__row .banner-principal__img
+  position: relative
+  right: -55px
+
+.banner-principal__img
+  background-image: url("../assets/curso/portada/float2.svg"), url("../assets/curso/portada/float3.svg"), url("../assets/curso/portada/banner-princiapal.png")
+  align-self: stretch
+  background-repeat: no-repeat, no-repeat, no-repeat
+  background-position: 6% 90%, 90% 10%, 100% 0%
+  background-size: 20%, 20%, 520px
+  animation: Flitp 6s ease infinite
+  img
+    display: none !important
+
+@keyframes Flitp
+  0%
+    background-image: url("../assets/curso/portada/float2.svg"), url("../assets/curso/portada/float3.svg"), url("../assets/curso/portada/banner-princiapal.png")
+  25%
+    background-image: url("../assets/curso/portada/float2.svg"), url("../assets/curso/portada/float3.svg"), url("../assets/curso/portada/banner-princiapal.png")
+  50%
+    background-image: url("../assets/curso/portada/float2.svg"), url("../assets/curso/portada/float3.svg"), url("../assets/curso/portada/banner-princiapal.png")
+    background-position: 20% 90%, 90% 20%, 100% 0%
+  75%
+    background-image: url("../assets/curso/portada/float2.svg"), url("../assets/curso/portada/float3.svg"), url("../assets/curso/portada/banner-princiapal.png")
+  100%
+    background-image: url("../assets/curso/portada/float2.svg"), url("../assets/curso/portada/float3.svg"), url("../assets/curso/portada/banner-princiapal.png")
+
+.banner-principal__info
+  background-image: url("../assets/curso/portada/float1.svg")
+  align-self: stretch
+  background-repeat: no-repeat
+  background-position: 0% 25%
+  background-size: 20%
+  animation: Flitp1 6s ease infinite
+
+@keyframes Flitp1
+  0%
+    background-image: url("../assets/curso/portada/float1.svg")
+  25%
+    background-image: url("../assets/curso/portada/float1.svg")
+  50%
+    background-image: url("../assets/curso/portada/float1.svg")
+    background-position: 10% 25%, 10% 96%
+  75%
+    background-image: url("../assets/curso/portada/float1.svg")
+  100%
+    background-image: url("../assets/curso/portada/float1.svg")
+
+.carousel-indicators
+  bottom: 60px
+
+.carousel-indicators [data-bs-target]
+  background-color: #FF854E
+
+.etiqueta
+  background-color: #FFCE7E
+  color: #000
+
+.bg01
+  background-image: url("../assets/curso/tema1/img1.svg") 
+  background-repeat: no-repeat
+  background-size: contain
+  background-position-y: center
+
+
+.bg03
+  background-image: url("../assets/curso/tema3/img01.svg") 
+  background-repeat: no-repeat
+  background-size: cover
+
+.bg1
+  background-image: url("../assets/curso/tema2/img1.svg") 
+  background-repeat: no-repeat
+  background-size: contain
+  background-position-y: center
+
+.bg2
+  background-color:#EBF5E7
+
+.bg3
+  background-color: #FFD63D
+  border-radius: 12px
+
+.bg4
+  background-image: url("../assets/curso/tema3/img03.svg") 
+  background-repeat: no-repeat
+  background-size: cover
+  
+
+.bg5
+  background-color: #FFD63D
+
+.bg6
+  background-color: #FFF7D8
+
+.bg7
+  background-color: #FF854E
+
+.bg8
+  background-color: #FFE7DD
+
+.bg9
+  background-color: #79BE60
+
+.bg10
+  background-color: #FAFAFA
+  border-radius: 15px
+
+.bg11
+  background-color: #FFD63D
+  border-radius: 0px
+
+.bg12
+  background-color: #FFF3C6
+  border-radius: 0px
+.bg13
+  background-color: #EBF5E7
+  border-radius: 0px
+.bg14
+ background-image: url("../assets/curso/tema1/img05.svg") 
+  background-repeat: no-repeat
+  background-size: contain
+
+.bg15
+  background-color: #F3F9FF
+
+.bg16
+  background-color: #006C62
+  border-radius: 0px
+
+.hy
+  height: 100%
+
+.imgt
+  margin-top: -68px
+.img-position1
+  margin-inline: -3.2rem !important
+
+.imgt1
+  margin: 78px
+
+@media only screen and (max-width: 1199px)
+  .banner-principal .tarjeta
+    background-size: auto
+    background-position: 0
+    background-repeat: no-repeat
+
+@media only screen and (max-width: 1400px)
+
+  .banner-principal__row .banner-principal__img
+    right: 0px
+
+@media only screen and (max-width: 1200px)
+
+  .banner-principal__row .banner-principal__img
+    width: 400px
+
+@media screen and ( max-width: 992px )
+
+  .bg01
+    background-size: cover
+
+  .bg1
+    background-size: cover
+
+  .tarjeta-avatar
+    height: 420px
+
+.img-infografica__item__numero
+  font-size: 21px
+.tarjeta.color-acento-botones
+  background-color: #ECF1F5
+
+.BGIMG01
+  background-image: url("../assets/curso/tema2/img03.svg")
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: center
+
+.BGIMG02
+  background-image: url("../assets/curso/tema2/img04.svg")
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: center
+
+.bg-tarjeta-info  
+  background-color: #F6F6F6
+  border: 1px solid rgba(#707070,0.63)
+  padding: 40px !important
+  width: 500px !important
+  & :last-child
+    padding-bottom: 0
+    margin-bottom: 0
+
+.img-infografica.color-secundario .img-infografica__item__numero, .img-infografica-b.color-secundario .img-infografica__item__numero 
+  color: #FFFFFF
+
+.bloque-texto-b.color-secundario:before
+  background-color: #FFF7EA
+
+.bloque-texto-b:before
+  top: 40%
+  bottom: 10%
+.bloque-texto-b i 
+  font-size: 2.5em
+  color: #FF854E
+.bloque-texto-b i:last-of-type 
+  margin-left: 435px
+
+
+.tarjeta.color-acento-botones-1
+  background-color: #FFF6D5
+  border-radius: 0px
+
+.tarjeta-flip.color-secundario .tarjeta-flip__contenido
+  background-color: #BBDEAF !important
+
+
