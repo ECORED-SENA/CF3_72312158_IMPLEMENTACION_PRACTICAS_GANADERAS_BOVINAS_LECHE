@@ -7,15 +7,15 @@
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.h-100.d-flex.align-items-center.p-4
           figure
-            img(src="@/assets/template/arrastrar.svg", alt="Texto que describa la imagen")
+             img(src="@/assets/template/sopa-letras-crucigrama.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Formatos para implementación de BPGBL
-        p.mb-4 #[b Objetivo] Reconocer y relacionar algunos de los formatos utilizados en la implementación de BPGBL.
+          h2 Plan de Contingencia
+        p.mb-4 #[b Objetivo] Identificar los aspectos que hacen referencia a un plan de contingencia, con el fin de determinar su aplicación en las BPGBL.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Arrastar
+              p.fw-bold.mb-0 Rompecabezas 
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
                 span Realizar

@@ -143,79 +143,55 @@ export default {
   },
   complementario: [
     {
-      tema: 'Plan de implementación',
+      tema: '. Seguimiento y evaluación',
       referencia:
-        'Tafur Garzón, M. & Nieto, A. (2011). Las Buenas Prácticas Ganaderas en la Producción de Leche. ICA - MADR. ',
-      tipo: 'Cartilla',
-      link:
-        'https://repository.agrosavia.co/bitstream/handle/20.500.12324/2259/44962_60380.pdf',
-    },
-    {
-      tema: 'Plan de implementación',
-      referencia:
-        'Uribe F., Zuluaga, A. F., Valencia L., Mugueitio, E. & Ochoa L. (2011). Manuel 3. Buenas prácticas ganaderas. Ganadería Colombiana Sostenible.  ',
+        'Ortegón, E., Pacheco, J. y Prieto, A. (2015). Metodología del marco lógico para la planificación, el seguimiento y la evaluación de proyectos y programas. CEPAL.',
       tipo: 'Manual',
       link:
-        'http://ganaderiacolombianasostenible.co/web/wp-content/uploads/2015/04/3.-Buenas-Practicas-Ganaderas.pdf',
+        'https://repositorio.cepal.org/bitstream/handle/11362/5607/S057518_es.pdf',
     },
     {
-      tema: 'Procedimientos, procesos, registros',
-      referencia:
-        'Nickerson Stephen, C. (s.f.). Estrategias de Prevención y Control de Mastitis. ',
-      tipo: 'Documento',
-      link:
-        'http://www.aprocal.com.ar/wp-content/uploads/estrategias_prevencion_y_control_mastitis.htm.pdf',
-    },
-    {
-      tema: 'Procedimientos, procesos, registros',
-      referencia:
-        'Strappini A. C., Gallo, C., Bustamante, H., Werner, M., Sepúlveda, Pilar. & Valenzuela, R. (2018). Manual de Manejo y Bienestar de la Vaca Lechera.',
-      tipo: 'Manual',
-      link:
-        'https://www.prolesur.cl/content/dam/prolesur/documents/2018/Manual_de_manejo_y_bienestar_de_la_vaca_lechera.pdf',
-    },
-    {
-      tema: 'Gestión documental',
-      referencia: 'TVAgro. (2016). Implementación de Buenas Prácticas Lecheras',
+      tema: '. Seguimiento y evaluación',
+      referencia: 'Mideplan Costa Rica. (2015). Seguimiento y Evaluación ',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=fn06Uia3JSQ',
+      link: 'https://www.youtube.com/watch?v=d4l7c8saBgo',
     },
   ],
   glosario: [
     {
-      termino: 'Bienestar animal',
+      termino: 'Aplicar a escala',
       significado:
-        'Es el estado físico y mental de los animales con relación a las condiciones en las que vive y muere (Resolución Instituto Colombiano Agropecuario ICA 67449 del 2020).',
+        'conseguir que un proyecto pase de tratar con un reducido número de beneficiarios a un número más amplio. (CIVICUS, 2001)',
     },
     {
-      termino: 'Bioseguridad',
+      termino: 'Calidad',
       significado:
-        'Son todas aquellas medidas sanitarias, procedimientos técnicos y normas de manejo que se aplican de forma permanente, con el propósito de prevenir la entrada y salida de agentes infectocontagiosos en la unidad de producción primaria (Resolución Instituto Colombiano Agropecuario ICA 67449 del 2020).',
+        'es el grado en el que un conjunto de características inherentes cumple con unos requisitos. (López, 2014)',
     },
     {
-      termino: 'Buenas Prácticas Ganaderas (BPG)',
+      termino: 'Capacitación',
       significado:
-        'Prácticas recomendadas con el propósito de disminuir riesgos físicos, químicos y biológicos en la producción primaria de alimentos de origen animal que puedan generar riesgo a las personas promoviendo la sanidad, el bienestar animal y la protección del medio ambiente (Resolución Instituto Colombiano Agropecuario ICA 67449 del 2020).',
+        'es toda actividad realizada en una organización, respondiendo a sus necesidades, que busca mejorar la actitud, conocimiento, habilidades o conductas de su personal. (López, 2014)',
     },
     {
-      termino: 'Criterios fundamentales',
+      termino: 'Consumidor final',
       significado:
-        'Son aquellos criterios directamente vinculados con el cumplimiento de la normatividad oficial en materia sanitaria y de inocuidad en la producción primaria. Es obligatorio el cumplimiento del 100% de estos criterios para lograr la certificación en BPG (Resolución Instituto Colombiano Agropecuario ICA 67449 del 2020).',
+        'es el último consumidor de un producto alimenticio que no empleará dicho alimento como parte de ninguna operación o actividad mercantil. (López, 2014)',
     },
     {
-      termino: 'Criterios mayores',
+      termino: 'Evaluación ',
       significado:
-        'Son aquellos criterios cuyo cumplimiento están directamente relacionados con las condiciones necesarias para lograr la inocuidad en la producción primaria. Es obligatorio el cumplimiento de mínimo el 80 % de estos criterios para lograr la certificación (Resolución Instituto Colombiano Agropecuario ICA 67449 del 2020).',
+        'análisis, lo más sistemático y objetivo posible, de un proyecto en curso o ya terminado, de su formulación, ejecución y resultados. El propósito es determinar el cumplimiento de los objetivos y las prestaciones del proyecto (pertinencia, eficiencia, eficacia, impacto y sostenibilidad). (Castulina y Martínez, 2013)',
     },
     {
-      termino: 'Criterios menores',
+      termino: 'Indicadores',
       significado:
-        'Son aquellos criterios que, si bien no están relacionados directamente con la inocuidad de producción primaria, su cumplimiento contribuye a garantizar la inocuidad. Es obligatorio el cumplimiento de mínimo el 60 % de estos criterios para lograr la certificación (Resolución Instituto Colombiano Agropecuario ICA 67449 del 2020).',
+        'son señales concretas que se pueden medir. Son el reflejo de que algo ha ocurrido. Por ejemplo, un aumento del número de estudiantes aprobados es un indicador de la mejora de la cultura de enseñanza y aprendizaje. El medio de verificación (la prueba) es la lista oficial de aprobados. (CIVICUS, 2001)',
     },
     {
-      termino: 'Enfermedad de control oficial',
+      termino: 'Impacto',
       significado:
-        'Las enfermedades de control oficial son aquellas que son priorizadas por el ICA debido a su importancia zoonótica o que tienen un impacto económico por ser limitantes para el comercio nacional y/o internacional (Resolución Instituto Colombiano Agropecuario ICA 67449 del 2020).',
+        'efecto de un proyecto sobre los beneficiarios directos, así como sobre su entorno más amplio, al interior de un sector o en un área geográfica, en términos de factores técnicos, económicos, socioculturales e institucionales. Evidencia la relación entre objetivos generales y objetivos específicos. (Castulina y Martínez, 2013).',
     },
     {
       termino: 'Inocuidad de los alimentos',
@@ -223,67 +199,69 @@ export default {
         'Es la garantía de que los alimentos no causarán daño al consumidor cuando se preparen y consuman de acuerdo con el uso al que se destina (Resolución Instituto Colombiano Agropecuario ICA 67449 del 2020).',
     },
     {
-      termino: 'Leche anormal',
+      termino: 'Métodos cualitativos',
       significado:
-        'Corresponde al producto que presenta alteraciones de diferente naturaleza en los componentes y las propiedades físico-químicas de la leche, que desencadenan problemas en la elaboración de derivados o en la calidad de los mismos (Resolución Instituto Colombiano Agropecuario ICA 67449 del 2020).',
+        'pertenecen a la tradición de las ciencias sociales y se basan en la observación de las personas en su mismo territorio, en la interacción con ellas en su propio idioma, posiblemente en sus propios términos. Enfatizan la comprensión de la manera como las personas estudiadas construyen la realidad. La mayoría de estudios cualitativos cuentan con análisis descriptivos más que estadísticos. (Castulina y Martínez, 2013)',
     },
     {
-      termino: 'Peligro',
+      termino: 'Métodos cuantitativos',
       significado:
-        'Agente biológico, químico o físico presente en la leche, productos lácteos comestibles, que puede provocar un efecto adverso para la salud humana (Resolución Instituto Colombiano Agropecuario ICA 67449 del 2020).',
+        'se apoyan en instrumentos estructurados para recolectar información estandarizada de una muestra cuidadosamente seleccionada de individuos, unidades o eventos. La información es analizada a través de una comparación estadística entre grupos o de un análisis multivariado. (Castulina y Martínez, 2013)',
     },
     {
-      termino: 'Predio de producción primaria',
+      termino: 'Monitoreo o seguimiento',
       significado:
-        'Granja o finca destinada a la producción de animales en cualquiera de sus etapas de desarrollo (Resolución Instituto Colombiano Agropecuario ICA 67449 del 2020).',
+        'actividad sistemática y permanente de recolección y análisis de datos para proveer, al equipo de gestión y a las principales partes interesadas, indicaciones sobre el avance y el logro de los objetivos, así como sobre la utilización de los fondos disponibles. Es muy importante para retroalimentar la gestión y la toma de decisiones. (Castulina y Martínez, 2013)',
+    },
+    {
+      termino: 'Trazabilidad',
+      significado:
+        'es el conjunto de procedimientos preestablecidos y autosuficientes que permiten conocer el histórico, la ubicación y la trayectoria de un producto o lote de productos a lo largo de la cadena de suministros en un momento dado, a través de unas herramientas determinadas. (López, 2014)',
     },
   ],
   referencias: [
     {
       referencia:
-        'Delgadillo Pérez, D. (2013). Implementación de las Buenas Prácticas Ganaderas BPG en una finca ubicada en la finca ubicada en la vereda la vereda la Aurora en el municipio de La Calera en el municipio de La Calera.',
+        'Alianza Mundial para la Participación Ciudadana [CIVICUS]. (2001). Seguimiento y evaluación.',
       link:
-        'https://ciencia.lasalle.edu.co/cgi/viewcontent.cgi?article=1025&context=medicina_veterinaria',
+        'https://www.civicus.org/view/media/Seguimiento%20y%20evaluacion.pdf',
     },
     {
       referencia:
-        'Garzón Espitia, P.G. & Ruiz Sánchez, A. (2015). Estudio sobre el conocimiento del manejo de la leche con residuos farmacológicos, en las ganaderías de una vereda del municipio de Ubaté. Universidad la Salle.',
+        'Castulina, N. y Martínez, C. (2013). Guía para el Seguimiento y Evaluación de Proyectos Sociales. Project Concern International.',
+    },
+    {
+      referencia:
+        'Da Silva, D. (2021). ¿Qué son los indicadores de gestión y cómo impactan en la atención al cliente? Blog de Zendesk.',
       link:
-        'https://ciencia.lasalle.edu.co/cgi/viewcontent.cgi?article=1099&context=medicina_veterinaria',
+        'https://www.zendesk.com.mx/blog/indicadores-gestion/#:~:text=Los%20indicadores%20de%20gesti%C3%B3n%20son,o%20preventivas%20seg%C3%BAn%20el%20caso.',
     },
     {
       referencia:
-        'Jones, G. M. (2019). Limpieza y desinfección del equipo de ordeño. DAIREXNET.',
+        'Departamento Nacional de Planeación [DNP], Dirección de Inversiones y Finanzas Públicas [DIFP], Grupo Asesor de la Gestión de Programas y Proyectos de Inversión Pública [GAPI], Programa de las Naciones Unidas para el Desarrollo [PNUD] y Proyecto de Modernización de la Administración Financiera del Sector Público [MASFP]. Metodología de Seguimiento de programas y proyectos de inversión. Versión oficial. (2004). Grupo Asesor de la Gestión de Programas y Proyectos de Inversión Pública.',
       link:
-        'https://dairy-cattle.extension.org/limpieza-y-desinfeccion-del-equipo-de-ordeno/',
+        'https://colaboracion.dnp.gov.co/CDT/Inversiones%20y%20finanzas%20pblicas/Metodolo_Seguimiento_progr_proys_inv.pdf',
     },
     {
       referencia:
-        'Kruze, J. (1998). La Rutina de Ordeño y Su Rol en los Programas de Control de Mastitis Bovina. Archivos de medicina veterinaria, 30 (2), 07-16.',
-      link: 'https://dx.doi.org/10.4067/S0301-732X1998000200001',
+        'Estrategia Internacional para la Reducción de Desastres de las Naciones Unidas. [UNISDR]. (2009). Terminología sobre Reducción del Riesgo de Desastres. Naciones Unidas.',
+      link: 'https://www.unisdr.org/files/7817_UNISDRTerminologySpanish.pdf',
     },
     {
       referencia:
-        'Londoño, C., Barrios. D., Bedoya, G. A., Rodríguez, H., Toro, C. A., Silva, M. T., Dávila, M. D, Pemberty, M., Suárez, P. A. & Palacio, L. G. (s.f.). Buenas Prácticas Ganaderas y Gestión Empresarial. Universidad de Antioquia. Facultad de Ciencias Agrarias.',
+        'Keyence. (s. f.). ¿Qué es la trazabilidad? Principios de trazabilidad.',
       link:
-        'https://revistas.udea.edu.co/index.php/biogenesis/article/view/325352/20782758',
+        'https://www.keyence.com.mx/ss/products/marking/traceability/basic_about.jsp',
     },
     {
       referencia:
-        'Moreno Melo, V. (2014). Guía para la Implementación de las Buenas Prácticas Ganaderas. Universidad de Cundinamarca.',
-      link: 'https://es.calameo.com/read/004535211d3fe462ab1b0',
+        'Kurmen, R. (s. f.). Formulación y Evaluación de Proyectos. Universidad Manuela Beltrán.',
     },
     {
       referencia:
-        'Resolución No. 067449 de 2020 [Instituto Colombiano Agropecuario - ICA] Por medio de la cual se establecen los requisitos para obtener la certificación en Buenas Prácticas Ganaderas BPG en la producción de leche. 8 de mayo de 2020.',
+        'López, M. (2014). Elaboración del sistema de trazabilidad en la planta de producción de la empresa El Horno de Mikaela. Corporación Universitaria Lasallista.',
       link:
-        'https://www.ica.gov.co/getattachment/Areas/Pecuaria/Servicios/Inocuidad-en-las-Cadenas-Agroalimentarias/LISTADO-DE-PREDIOS-CERTIFICADOS-EN-BPG/Resolucion-067449-del-08-de-mayo-2020-1.pdf.aspx?lang=es-CO',
-    },
-    {
-      referencia:
-        'Tafur Garzón, M. & Nieto, A. (2011). Las Buenas Prácticas Ganaderas en la Producción de Leche. ICA - MADR.',
-      link:
-        'https://repository.agrosavia.co/bitstream/handle/20.500.12324/2259/44962_60380.pdf',
+        'http://repository.unilasallista.edu.co/dspace/bitstream/10567/1142/1/Elaboracion_sistema_trazabilidad_planta_producci%c3%b3n_El_Horno_de_Mikaela.pdf',
     },
     {
       referencia:
@@ -323,7 +301,7 @@ export default {
         centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
       {
-        nombre: 'Jhon Jairo Rodríguez ',
+        nombre: 'Darío González',
         cargo: 'Corrector de estilo',
         centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
@@ -365,31 +343,31 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Estefani Daniela Gallo Cortés',
+        nombre: 'Yicelly Estefania Mesa Silva',
         cargo: 'Ilustración',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Pedro Nel Calao Zabal',
+        nombre: 'Carlos Eduardo Garavito Parada',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Ludwyng Corzo García',
+        nombre: 'Laura Gisselle Murcia Pardo',
         cargo: 'Validación Ilustración',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Erika Viviana Sandoval Roja',
+        nombre: 'Ludwyng Corzo García',
         cargo: 'Validación audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Sandra Milena Triana PINTO',
+        nombre: 'Sandra Milena Triana Pinto',
         cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -404,11 +382,6 @@ export default {
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
-        nombre: 'nombre',
         cargo: 'Validación y vinculación en plataforma LMS',
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },

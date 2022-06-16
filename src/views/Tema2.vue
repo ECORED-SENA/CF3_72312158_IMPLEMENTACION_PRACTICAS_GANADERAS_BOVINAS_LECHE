@@ -11,10 +11,10 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .cajon.color-acento-contenido.p-4(data-aos="fade-right")
-          .row.align-items-center
+          .row
             .col-lg-2.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/tema2/img02.svg', style="width: 107px").m-auto
+                img.imgt(src='@/assets/curso/tema2/img02.svg', style="width: 107px")
             .col-lg-8.mb-4.mb-lg-0
               ul.lista-ul.ms-3
                 li 
@@ -58,11 +58,11 @@
             .text-black.p-4.mb-5
               h2.mb-5.mt-5.text-center Acciones correctivas inmediatas
               p.mb-5 Rectifican un problema existente o una distorsión de algún límite crítico, haciendo la detección de algún proceso o procedimiento mal ejecutado, proyectado o realizado. Algunos ejemplos de este tipo de acciones serían: el rechazo de leche contaminada con pasto o barro, insectos, etc.; impedir el ordeño de animales con signos de mastitis; no permitir que un operador realice el ordeño sin el correcto lavado de manos.
-      .col-md-6.col-lg.mb-5.mb-lg-0
-        .tarjeta-avatar
+      .col-md-6.col-lg.mb-5.mb-lg-0.mt-5.mt-lg-0
+        .tarjeta-avatar.mg1
           img(src='@/assets/curso/tema2/img06.svg' alt='AvatarTop')
           .tarjeta.BGIMG02
-            .p-4
+            .text-black.p-4.mb-5
               h2.mb-5.mt-5.text-center Acciones correctivas preventivas
               p Impiden que ocurra un potencial problema. Previenen que suceda un error en la implementación del plan en el futuro. Algunos ejemplos de este tipo de acciones serían: realizar reparaciones locativas en la sala de ordeño y corrales; hacer mantenimiento al equipo y elementos utilizados en el ordeño; aplicar la correcta limpieza y desinfección en las instalaciones y los equipos de la unidad productiva.
    

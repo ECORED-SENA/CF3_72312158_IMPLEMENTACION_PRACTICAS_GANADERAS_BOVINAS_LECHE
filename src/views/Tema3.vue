@@ -17,7 +17,8 @@
     h4.mb-5.text-center ¿Desea profundizar en este tema? En el siguiente video, lo puede hacer:
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen) 
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/6A1jY0MzJu4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen) 
+        
     separador
     #t_3_1
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -215,7 +216,7 @@
           .tarjeta.color-acento-botones-1.p-4
             .row.justify-content-center.mb-3
               .col-6.py-5
-                img(src='@/assets/curso/tema3/img17.svg' , style="width: 135px").m-auto
+                img(src='@/assets/curso/tema3/img19.svg' , style="width: 135px").m-auto
             h2.text-center Movimiento 
             p En su interior se describe una acción que tenga que ver con el movimiento físico de cosas. Por ejemplo, transporte de algo de un lugar a otro.
           .tarjeta.color-acento-botones-1.p-4
