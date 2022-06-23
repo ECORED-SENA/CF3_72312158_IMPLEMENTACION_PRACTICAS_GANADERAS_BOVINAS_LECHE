@@ -64,7 +64,7 @@
 .tabs-b.color-acento-contenido .tabs-b__tab--active
   border-top-color: #79BE60 !important
   span
-    color: #79BE60
+    color: #006C62
 
 .tabs-b__tab
   border-bottom: 0px
@@ -87,7 +87,37 @@
 
 .tarjeta.tarjeta--verde
   background-color: #EBF5E7
+.linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, .pasos-b__header__btn--left, .pasos-b__header__btn--right
+  border: 1px solid #FF854E
 
+.linea-tiempo-c__header__btn--left i, .linea-tiempo-c__header__btn--right i
+  color: #FF854E
+
+
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__dot
+  border-color: #FF854E
+
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__dot::after
+  background-color: #FF854E
+
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__line-container::before
+  background-color: #FF854E
+
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--before .linea-tiempo-c__header__item__dot
+  border-color: #FF854E
+
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--before .linea-tiempo-c__header__item__line-container::before, .linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--before .linea-tiempo-c__header__item__line-container::after
+  background-color: #FF854E
+
+.linea-tiempo-b.color-secundario .linea-tiempo-b__icon
+  background-color: #FF854E
+  width: 70%
+  border-radius: 70%
+  padding-top: 70%
+  left: 22px
+  
+.linea-tiempo-b.color-secundario .linea-tiempo-b__icon::after
+  background-color: #FF854E
 
 .linea-tiempo-b__icon img
   width: 60%
@@ -198,11 +228,23 @@
   border-radius: 12px
 
 .bg4
-  background-image: url("../assets/curso/tema3/img03.svg") 
-  background-repeat: no-repeat
-  background-size: cover
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 0rem
+    top: -3rem
+    left: -49px
+    width: calc( 100% + 6rem)
+    height: calc( 100% + 3rem)
+    background-image: url("../assets/curso/tema3/img03.svg") 
+    background-repeat: no-repeat
+    background-size: cover
   
-
+.BG13
+  background-color: #fff
 .bg5
   background-color: #FFD63D
 
@@ -261,7 +303,7 @@
 .mg1
   margin-top: 0rem
   @media screen and ( max-width: 992px )
-    margin-top: 5rem
+    margin-top: 8rem
 
 @media only screen and (max-width: 1199px)
   .banner-principal .tarjeta
@@ -306,6 +348,15 @@
   background-size: cover 
   background-repeat: no-repeat
   background-position: center
+
+.BGIMG03
+  background-image: url("../assets/curso/tema3/img28.svg")
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: center
+
+.img150
+  max-width: 90px
 
 .bg-tarjeta-info  
   background-color: #F6F6F6

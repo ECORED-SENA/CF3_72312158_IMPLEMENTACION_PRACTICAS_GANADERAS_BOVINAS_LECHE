@@ -22,9 +22,9 @@
       .col-lg-4.mb-1.mb-lg-0
         figure.mt-0.mt-lg-4
           img.p-5(src='@/assets/curso/tema4/img02.png', style="width: 320px").m-auto(data-aos="fade-right")
-    .col-md-12
-      figure.mt-0.mt-lg-4
-        img.p-5(src='@/assets/curso/tema4/img03.svg')(data-aos="fade-right")
+    .col-12.col-md-12
+      figure
+        img(src='@/assets/curso/tema4/img03.svg')(data-aos="fade-right")
     .row.align-items-center.mb-2(data-aos="fade-right")
       .col-lg-7.p-5
         .dual-txt-deco
@@ -33,9 +33,9 @@
       .col-lg-4.mb-1.mb-lg-0
         figure.mt-0.mt-lg-4
           img.p-5(src='@/assets/curso/tema4/img05.png', style="width: 320px").m-auto(data-aos="fade-right")
-    .col-md-12
-      figure.mt-0.mt-lg-4
-        img.p-5(src='@/assets/curso/tema4/img04.svg')(data-aos="fade-right")
+    .col-12.col-md-12
+      figure
+        img.mb-5(src='@/assets/curso/tema4/img04.svg')(data-aos="fade-right")
     .row.mb-5.justify-content-center
       .col-lg-10
         p.mb-5 #[b Otra forma de clasificar la trazabilidad] es de acuerdo con el tipo de rastreo que se puede hacer teniendo en cuenta la identificación individual o por lotes de todas las piezas y los productos. En este caso, se puede decir que existen dos tipos:
@@ -58,20 +58,20 @@
               td 
                 p Requisitos básicos que deben ser aplicados para producir en forma higiénica y sanitaria los alimentos y reducir los riesgos para la salud del consumidor, cumpliendo con regulaciones nacionales e internacionales.
             tr
-            th POES (Procedimiento de Operación Estándar de Sanitización)
-            td 
+            th(style="background-color: #E2F2DC") POES (Procedimiento de Operación Estándar de Sanitización)
+            td(style="background-color: #E2F2DC")
               p Describen las tareas de saneamiento, se aplican antes, durante y después de las operaciones de elaboración.
             tr
             th HACCP (Análisis Control de Puntos Críticos) 
             td 
               p Sistema que permite identificar, evaluar y controlar peligros significativos para la inocuidad de los alimentos.
             tr
-            th ISO (Control de calidad)
-            td 
+            th(style="background-color: #E2F2DC") ISO (Control de calidad)
+            td(style="background-color: #E2F2DC") 
               p Su finalidad es orientar, coordinar, simplificar y unificar los usos para conseguir menores costos y efectividad.
     p.mb-5 En conclusión, la trazabilidad es fundamental en la aplicación de las políticas sanitarias, particularmente, en el caso de las enfermedades endémicas y zoonóticas, así como en los requerimientos de los mercados, tanto internos como externos, donde son de gran importancia la certificación de origen, la inocuidad y la calidad de los productos. Además de los aportes que el sistema brinda a la sanidad animal, a la salud pública y al comercio, este aumenta la probabilidad de llevar un sistema estadístico a través de las bases de datos, en cuanto a inventario de animales, parámetros productivos, manejos de procesos y sistemas productivos, mejoramiento genético, entre otros, lo cual, sin duda, constituye la trazabilidad como una herramienta excelente para la actividad ganadera tecnificada.
-    figure.mt-0.mt-lg-4
-      img.p-5(src='@/assets/curso/tema4/img06.svg')(data-aos="fade-right")
+    figure
+      img(src='@/assets/curso/tema4/img06.svg')(data-aos="fade-right")
         
 </template>
 
