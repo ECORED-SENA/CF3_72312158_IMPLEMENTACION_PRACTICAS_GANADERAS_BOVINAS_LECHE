@@ -24,11 +24,11 @@
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2(data-aos="fade-right") 3.1 Tipos y técnicas
     .row.align-items-center.mb-5(data-aos="fade-right")
-      .col-lg-7.p-5
+      .col-lg-8.p-5
         .dual-txt-deco2
             p.py-5(style="position: relative; z-index: 1;") El seguimiento involucra el establecimiento de indicadores, tanto de efectividad como de eficacia, el alcance y el impacto, la elaboración de sistemas que permitan la recolección de la información para elaborar los indicadores, con el fin de mantener actualizada la administración a través de la aplicación del mismo. Además, se considera que el seguimiento es una función interna de cualquier proceso, plan, procedimiento o proyecto de una unidad productiva. Ahora bien, cuando se habla de seguimiento, en realidad se está haciendo referencia a dos tipos:
       .col-lg-3.mb-4.mb-lg-0
-        figure.mt-0.mt-lg-4
+        figure.mt-0.mt-lg-3.justify-content-center
          img.mb-5.mb-lg-0(src='@/assets/curso/tema3/img02.png')(data-aos="fade-right")
       .bg4
         .row.mb-5.justify-content-center
@@ -128,11 +128,11 @@
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2(data-aos="fade-right") 3.2 Metodología
     .row.align-items-center.mb-4(data-aos="fade-right")
-      .col-lg-7
+      .col-lg-8
         .dual-txt-deco2
             p.py-5(style="position: relative; z-index: 1;") La metodología para hacer seguimiento de programas, planes y proyectos tiene un marco referencial, el cual se debe seguir, con el fin de recolectar la información en los diversos formatos, registros, listas de chequeo y propuestas que permitan evaluar e interpretar de forma coherente, eficiente, efectiva y oportuna. Además, se sugiere consultar los procesos, procedimientos, guías, manuales y demás herramientas que permitan realizar las labores de seguimiento y evaluación más adecuadamente.
       .col-lg-3.mb-4.mb-lg-0
-        figure.mt-0.mt-lg-4.justify-content-end
+        figure.mt-0.mt-lg-3.justify-content-end
          img(src='@/assets/curso/tema3/img10.png', style="width: 320px").m-auto(data-aos="fade-right")
     p.mb-5 Por otra parte, al evaluar, se pueden identificar varias características. Se pueden establecer diferentes metodologías de evaluación que pertenecen a un amplio tipo, que a su vez son de diversas disciplinas. La evaluación confronta la información para poder tomar decisiones, por lo cual se hacen necesarias la investigación, la medición y la discusión a través de la comparación. Sin embargo, se pueden encontrar diferencias teórico-metodológicas entre los análisis y las variables, así como entre los indicadores y los instrumentos de medición usados, debido al gran universo que existe para estos. 
     separador
@@ -170,40 +170,40 @@
       .col-lg-10.BGIMG03.py-5
         .row.mb-3.justify-content-center.align-itmes-center 
           .col-3.col-lg-1
-            img.img150(src='@/assets/curso/tema3/img29.svg', alt='Texto que describa la imagen')
-          .col-lg-3
-            h.py-3 Encuestas 
+            img.mb-3.img150(src='@/assets/curso/tema3/img29.svg', alt='Texto que describa la imagen')
+          .col-lg-3.col-9
+            h4.py-3 Encuestas 
           .col-3.col-lg-1
             img.img150(src='@/assets/curso/tema3/img30.svg', alt='Texto que describa la imagen')
-          .col-lg-3
-            h.py-3 Reflexión personal
+          .col-lg-3.col-9
+            h4.py-3 Reflexión personal
         .row.mb-3.justify-content-center.align-itmes-center 
           .col-3.col-lg-1
-            img.img150(src='@/assets/curso/tema3/img31.svg', alt='Texto que describa la imagen')
-          .col-lg-3
-            h.py-3 Cuestionarios
+            img.mb-3.img150(src='@/assets/curso/tema3/img31.svg', alt='Texto que describa la imagen')
+          .col-lg-3.col-9
+            h4.py-3 Cuestionarios
           .col-3.col-lg-1
             img.img150(src='@/assets/curso/tema3/img32.svg', alt='Texto que describa la imagen')
-          .col-lg-3
-            h.py-3 Observación externa
+          .col-lg-3.col-9
+            h4.py-3 Observación externa
         .row.mb-3.justify-content-center.align-itmes-center 
           .col-3.col-lg-1
-            img.img150(src='@/assets/curso/tema3/img36.svg', alt='Texto que describa la imagen')
-          .col-lg-3
-            h.py-3 Fichas de indagación
+            img.mb-3.img150(src='@/assets/curso/tema3/img36.svg', alt='Texto que describa la imagen')
+          .col-lg-3.col-9
+            h4.py-3 Fichas de indagación
           .col-3.col-lg-1
             img.img150(src='@/assets/curso/tema3/img33.svg', alt='Texto que describa la imagen')
-          .col-lg-3
-            h.py-3 Contraste de experiencias
+          .col-lg-3.col-9
+            h4.py-3 Contraste de experiencias
         .row.justify-content-center.align-itmes-center 
           .col-3.col-lg-1
-            img.img150(src='@/assets/curso/tema3/img34.svg', alt='Texto que describa la imagen')
-          .col-lg-3
-            h.py-3 Fichas gráficas
+            img.mb-3.img150(src='@/assets/curso/tema3/img34.svg', alt='Texto que describa la imagen')
+          .col-lg-3.col-9
+            h4.py-3 Fichas gráficas
           .col-3.col-lg-1
             img.img150(src='@/assets/curso/tema3/img35.svg', alt='Texto que describa la imagen')
-          .col-lg-3
-            h.py-3 Lista de chequeo
+          .col-lg-3.col-9
+            h4.py-3 Lista de chequeo
           
     separador
     #t_3_5
