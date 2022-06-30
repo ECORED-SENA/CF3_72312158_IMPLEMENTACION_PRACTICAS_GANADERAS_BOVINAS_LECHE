@@ -24,12 +24,12 @@
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2(data-aos="fade-right") 3.1 Tipos y técnicas
     .row.align-items-center.mb-5(data-aos="fade-right")
-      .col-lg-8.p-5
+      .col-lg-8.p-3.p-md-5
         .dual-txt-deco2
             p.py-5(style="position: relative; z-index: 1;") El seguimiento involucra el establecimiento de indicadores, tanto de efectividad como de eficacia, el alcance y el impacto, la elaboración de sistemas que permitan la recolección de la información para elaborar los indicadores, con el fin de mantener actualizada la administración a través de la aplicación del mismo. Además, se considera que el seguimiento es una función interna de cualquier proceso, plan, procedimiento o proyecto de una unidad productiva. Ahora bien, cuando se habla de seguimiento, en realidad se está haciendo referencia a dos tipos:
-      .col-lg-3.mb-4.mb-lg-0
+      .col-lg-3.mb-4.mb-lg-5
         figure.mt-0.mt-lg-3.justify-content-center
-         img.mb-5.mb-lg-0(src='@/assets/curso/tema3/img02.png')(data-aos="fade-right")
+         img.mb-5.mb-lg-5(src='@/assets/curso/tema3/img02.png')(data-aos="fade-right")
       .bg4
         .row.mb-5.justify-content-center
           .col-lg-5.mb-4.mb-lg-0.py-3
