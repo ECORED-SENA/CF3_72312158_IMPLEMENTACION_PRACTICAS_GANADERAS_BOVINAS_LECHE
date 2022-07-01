@@ -17,7 +17,7 @@
     h4.mb-5.text-center ¿Desea profundizar en este tema? En el siguiente video, lo puede hacer:
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/6A1jY0MzJu4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen) 
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/90XgYI8iM1E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen) 
         
     separador
     #t_3_1
@@ -38,8 +38,8 @@
               .tarjeta-flip__contenedor
                 .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img04.svg')})`}")
                 .tarjeta-flip__contenido.p-4.p-xl-5
-                  h4.text-center.mt-5 Buenas Prácticas Ganaderas aplicadas a la Producción de Leche:
-                  p Su principal objetivo es la producción de leche inocua y de calidad y se implementan en los procesos de producción, ordeño y conservación de la leche en las producciones ganaderas. Normativamente, están reglamentadas por el Decreto 616 del 2006, expedido por el Ministerio de Protección Social y el Ministerio de Agricultura y Desarrollo Rural y por la Resolución 3585 del 2008 del Instituto Colombiano Agropecuario ICA.
+                  h4.text-center.mt-5 Seguimiento del trabajo a nivel individual:
+                  p Los instrumentos para hacer seguimiento pueden acelerar de forma individual y dejar visualizar las responsabilidades de los encargados delineando las labores de cada miembro del equipo y los tiempos asignados para cada una de las actividades. Esto ofrece al grupo ejecutor, de forma clara, la información acerca de cada actividad programada, si esta avanza de acuerdo con la programación y se dirige a lograr la meta. 
           .col-lg-5.py-3
             .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
               .tarjeta-flip__contenedor
@@ -118,7 +118,7 @@
                 p.mb-0  <span style="color: #FF854E !important; font-weigth: bold;">Evaluación cuantitativa:</span>  en esta se lleva a cabo la recolección metódica de datos o elementos que se puedan contar y codificar numéricamente. Por lo general, las técnicas cuantitativas utilizan herramientas de investigación que permiten observar datos estadísticos que suministran información de diversas fuentes.
               li 
                 i.fas.fa-angle-right(style="color: #FF854E")
-                p.mb-0  <span style="color: #FF854E !important; font-weigth: bold;">La evaluación sumativa:</span> evalúa el alcance del plan o proyecto una vez concluido. Además, están las evaluaciones de impacto, que estiman los efectos tanto positivos como negativos de un proyecto, plan o programa, y se hacen tiempo después de finalizado el mismo.
+                p.mb-0  <span style="color: #FF854E !important; font-weigth: bold;">Evaluación cualitativa: </span> abarca el análisis de datos que son de procedencia no numérica, como, por ejemplo, el texto de transcripciones de encuestas y entrevistas o fotografías en diferentes medios de información.
           .col-lg-2
             figure
               img.imgt1(src='@/assets/curso/tema3/img09.svg')
@@ -163,7 +163,7 @@
     separador
     #t_3_4
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2(data-aos="fade-right") 3.4 Indicadores de gestión
+      h2(data-aos="fade-right") 3.4 Procedimientos e instrumentos
     p.mb-4 Es importante tener en cuenta los objetivos, la disponibilidad de recursos y el lapso de tiempo formulado para la ejecución del seguimiento y la evaluación, con el fin de definir la metodología, el procedimiento, la técnica y el instrumento a aplicar, además de cuestionarse: #[span.etiqueta #[b ¿qué quiero evaluar?, ¿qué tipo de información o datos espero obtener como resultado de la evaluación?,]] puesto que son las respuestas a estas cuestiones las que permitirán establecer cómo y con qué tipo de instrumentos se realizará el seguimiento y la evaluación del plan o proyecto. 
     p.mb-3 Existe un amplio abanico de instrumentos y técnicas para recolectar información cuando se trata de aplicar un seguimiento o evaluación a un proyecto o plan, siendo lo fundamental el reconocer cuáles son los más apropiados según lo que se pretende medir. En este sentido, los más comunes son:
     .row.justify-content-center.align-itmes-center 
@@ -254,7 +254,7 @@
             .row.justify-content-center.mb-3
               .col-5.py-5
                 img(src='@/assets/curso/tema3/img19.svg' , style="width: 135px").m-auto
-            h3.text-center Movimiento 
+            h3.text-center Movimiento (Flecha ancha)
             p En su interior se describe una acción que tenga que ver con el movimiento físico de cosas. Por ejemplo, transporte de algo de un lugar a otro.
           .tarjeta.color-acento-botones-1.p-4
             .row.justify-content-center.mb-3
@@ -286,6 +286,8 @@
                 img(src='@/assets/curso/tema3/img24.svg' , style="width: 80px").m-auto
             h3.text-center Salto de Página
             p Se usa para dar conexión a lo que se está diagramando entre una hoja que termina y una hoja nueva.
+    p.mb-5 En cuanto a los tipos de diagramación de los proyectos, planes o empresas, se tiene que pueden ser de tres categorías diferentes, obsérvelas:
+    h4.mb-3.text-center Tipos de diagramación
     .row.justify-content-center
       .col-lg-4.mb-2.mb-lg-0.py-3
         .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")

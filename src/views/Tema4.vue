@@ -44,6 +44,7 @@
             iframe(width="560" height="315" src="https://www.youtube.com/embed/6A1jY0MzJu4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen) 
     .row.justify-content-center.mb-5
       .col-lg-12
+        p.mb-5 Es así como la trazabilidad es un instrumento vital en el aseguramiento de la calidad e inocuidad de los alimentos, además de la sanidad de los animales y las personas, siendo uno de los conceptos más destacados tanto en el Código Sanitario como en el Codex Alimentarius y en los anales de la salud pública.
         .cajon.color-acento-contenido.p-4(data-aos="fade-right")
           .row.align-items-center
             .col-lg-12.mb-4.mb-lg-0

@@ -3,7 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p.mb-5 Ya habiendo conocida toda la temática abordada en este componente formativo, es importante que se conozca de manera conceptual, un mapa que relaciona los temas abordados:
+    p.mb-5 A través del siguiente mapa conceptual, se resumen los procesos vistos con respecto a la evaluación de la implementación de BPG para bovinos de leche:
     .row.justify-content-center
       .col-lg-10.mb-5
         figure

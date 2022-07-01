@@ -8,7 +8,7 @@
       h1(data-aos="fade-left") Contingencias 
     .row.bg01.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-7.p-5
-        p.mb-0 Las contingencias hacen referencia a aquellas situaciones o eventos que podrían suceder en la producción y que acarrearían consecuencias negativas o positivas para la empresa ganadera. Si este hecho llegara a ocurrir o materializarse, mejoraría o empeoraría las condiciones productivas de la empresa. Aunque no se tiene certeza de su ocurrencia, es posible que pase, y por esto, es muy importante que se diseñen planes de contingencia, para así poder enfrentarse a algunas situaciones que puedan suceder. 
+        p.mb-0 #[b Las contingencias hacen referencia a aquellas situaciones o eventos que podrían suceder en la producción y que acarrearían consecuencias negativas o positivas para la empresa ganadera. Si este hecho llegara a ocurrir o materializarse, mejoraría o empeoraría las condiciones productivas de la empresa. Aunque no se tiene certeza de su ocurrencia, es posible que pase, y por esto, es muy importante que se diseñen planes de contingencia, para así poder enfrentarse a algunas situaciones que puedan suceder.] 
       .col-lg-5.mb-4.mb-lg-0
         figure.mt-0.mt-lg-4
          img(src='@/assets/curso/tema1/img01.png', style="width: 500px").m-auto(data-aos="fade-right")
@@ -34,7 +34,7 @@
         .row.align-items-center.justify-content-center
           .col-lg-7
             h4 Vulnerabilidad: 
-            p ESon las particularidades y situaciones de una población, sistema o propiedades que les hacen susceptibles a los resultados dañinos.
+            p Son las particularidades y situaciones de una población, sistema o propiedades que les hacen susceptibles a los resultados dañinos.
           .col-auto.mb-4.mb-lg-0
             figure
               img(src='@/assets/curso/tema1/img04.svg', style="width: 250px").m-auto
