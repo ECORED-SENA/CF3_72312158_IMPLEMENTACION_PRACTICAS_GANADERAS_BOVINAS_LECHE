@@ -248,7 +248,7 @@
             .row.justify-content-center.mb-3
               .col-5.py-5
                 img(src='@/assets/curso/tema3/img18.svg' , style="width: 70px").m-auto
-            h3.text-center Conector(Circulo pequeño Con flecha)
+            h3.text-center Conector (Círculo pequeño Con flecha)
             p Sirve para conectar dos símbolos que están en secuencia y en la misma hoja del diagrama.
           .tarjeta.color-acento-botones-1.p-4
             .row.justify-content-center.mb-3

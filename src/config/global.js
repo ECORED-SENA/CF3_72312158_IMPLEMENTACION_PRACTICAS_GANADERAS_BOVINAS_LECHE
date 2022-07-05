@@ -143,7 +143,7 @@ export default {
   },
   complementario: [
     {
-      tema: '. Seguimiento y evaluación',
+      tema: 'Seguimiento y evaluación',
       referencia:
         'Ortegón, E., Pacheco, J. y Prieto, A. (2015). Metodología del marco lógico para la planificación, el seguimiento y la evaluación de proyectos y programas. CEPAL.',
       tipo: 'Manual',
@@ -151,7 +151,7 @@ export default {
         'https://repositorio.cepal.org/bitstream/handle/11362/5607/S057518_es.pdf',
     },
     {
-      tema: '. Seguimiento y evaluación',
+      tema: 'Seguimiento y evaluación',
       referencia: 'Mideplan Costa Rica. (2015). Seguimiento y Evaluación ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=d4l7c8saBgo',
@@ -179,7 +179,7 @@ export default {
         'es el último consumidor de un producto alimenticio que no empleará dicho alimento como parte de ninguna operación o actividad mercantil. (López, 2014)',
     },
     {
-      termino: 'Evaluación ',
+      termino: 'Evaluación',
       significado:
         'análisis, lo más sistemático y objetivo posible, de un proyecto en curso o ya terminado, de su formulación, ejecución y resultados. El propósito es determinar el cumplimiento de los objetivos y las prestaciones del proyecto (pertinencia, eficiencia, eficacia, impacto y sostenibilidad). (Castulina y Martínez, 2013)',
     },
